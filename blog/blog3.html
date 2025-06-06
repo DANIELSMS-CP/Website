@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Audit Which I Almost Won (How I Almost Gain $100+ from a Single Contest)</title>
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>First Audit Which I Almost Won (How I Almost Gain $100+ from a Single Contest)</h1>
+            <span class="post-date">June 7, 2025</span>
+        </header>
+        
+        <div class="content-box">
+            <div class="blog-content">
+                <section class="bio">
+                    <p> Recently, I joined an audit in Cantina (https://lnkd.in/g7mNXZwB). It was a 12-day 
+                        long audit contest, which has 287 nSLOC. It was a rather short contract that I 
+                        thought that I would've had a chance of at least winning some money. Everyday, I read the 
+                        scope of the codebase and try to think of anything that might break the contract functionality. 
+                        After around 3 days (or more), I thought of something that seems unbelieveable. Two users can have 
+                        the same override address, which can lead to problems, such as reward stealing in overrideReceiver. I did 
+                        think about it but I was very unsure, since the hack is quite trivial. After the contest ended, I asked my good 
+                        friend neko_nyaa and he said that the bug was that, but I just misjudged it (I got the bug, but the mistake was not on 
+                        that aspect). I was feeling sad, but at least I learn some things:
+                    </p>
+                    <ol>
+                        <li>Anything can happen in real life</li>
+                        <li>Always have the hacker mindset</li>
+                        <li>Do more contest (obviously)</li>
+                    </ol>
+                    <p>Here is a picture of the function—notice that the overrideAddress[msg.sender] lacks access control:</p>
+                    <img src="./blogAssets/primev_bug.jpeg">
+                    <a href="../index.html">Back to main page</a>
+                </section>      
+            </div>
+        </div>
+         <footer>
+            <p>© 2025 Daniel Simanullang. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
